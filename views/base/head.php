@@ -2,16 +2,15 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title></title>
-	<link rel="stylesheet" href="templates/css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+	<link rel="stylesheet" href="/template/css/style.css">
+	<title>MVC - Каркас</title>
 </head>
 <body>
-	<div id="wrapper">
-		<div id="content">	
-			<header>
-				<h1>head</h1>
-				<a href="contacts">Контакты</a>
-				<a href="about">О нас</a>
-			</header>
-
-			<div id="centering">
+	<div class="container-fluid">
+		<div class="navbar bg-dark navbar-dark" style="margin-bottom:20px;">
+			<a class="navbar-brand" href="/"><h3>MVC - Каркас</h3></a>
+		</div>
+		<div class="row">
+		<div class="col-12">

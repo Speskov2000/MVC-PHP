@@ -40,10 +40,9 @@ class Router
 
 				$controllerObj = new $controllerName();
 				
-				require_once(ROOT . '/views/base/head.php');
+				require_once(ROOT.'/views/base/head.php');
 				$result = call_user_func_array(array($controllerObj, $actionName), $params);
-				require_once(ROOT . '/views/base/footer.php');
-
+				require_once(ROOT.'/views/base/footer.php');
 				if($result != null) {
 					break;
 				}
